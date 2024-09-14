@@ -1,0 +1,25 @@
+.wrapper {
+  border: 2px solid #000;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 120px;
+  margin: 40px 0;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

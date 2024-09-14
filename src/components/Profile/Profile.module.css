@@ -1,0 +1,48 @@
+.wrapper {
+  border-radius: 10px;
+  border: 2px solid #000;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.tag,
+.location {
+  opacity: 0.6;
+}
+
+.stats {
+  display: flex;
+  border-top: 2px solid #000;
+  margin-top: 15px;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #ccc;
+  padding: 10px 0;
+}
+
+.statsItem:not(:last-child) {
+  border-right: 2px solid #000;
+}
+
+.statsCount {
+  font-weight: bold;
+}

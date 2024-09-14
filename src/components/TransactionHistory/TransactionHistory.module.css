@@ -1,0 +1,21 @@
+.wrapper {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.wrapper thead {
+  background-color: #242424;
+  color: #fff;
+}
+
+.wrapper tr {
+  border: 1px solid black;
+}
+
+.wrapper td {
+  border-right: 1px solid black;
+}
+
+.wrapper tr:nth-child(even) {
+  background-color: #ccc;
+}
